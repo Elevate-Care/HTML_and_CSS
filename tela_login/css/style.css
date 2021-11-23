@@ -1,13 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap%27');
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent;
-  }
 
 .quadrado {
     height: 200px;
@@ -38,33 +29,31 @@
     width: 100%;
     height: 100%;
     position:absolute;
-    top: 10px;
-    left: 10px;
     z-index: 2;   
   }
 
-input[type=text] {
+  input[type=text] {
     border-radius: 10px 10px 10px 10px;
     border: 2px solid #415D71;
-    padding: 10px;  
+    padding: 10px;
     width: 200px;
     height: 10px; 
     position:absolute;
     top: 475px;
-    right: 268px;
+    right: 275px;
     z-index: 2;
-    font-family: 'Merriweather Sans', sans-serif;      
+    font-family: 'Merriweather Sans', sans-serif;
   }
 
 input[type=password] {
     border-radius: 10px 10px 10px 10px;
     border: 2px solid #415D71;
-    padding: 10px;  
+    padding: 10px;
     width: 200px;
     height: 10px;
     position:absolute;
     top: 525px;
-    right: 268px;
+    right: 275px;
     z-index: 2;
     font-family: 'Merriweather Sans', sans-serif; 
   } 
@@ -72,16 +61,16 @@ input[type=password] {
 input[type=checkbox] {
     position: absolute;
     top: 575px;
-    right: 475px;
+    right: 480px;
     z-index: 2;
   }
 
 .lembrar-senha {
     position: absolute;
-    top: 572px;
-    right: 374px;
+    top: 557px;
+    right: 376px;
     z-index: 2;
-    font-family: 'Merriweather Sans', sans-serif;  
+    font-family: 'Merriweather Sans', sans-serif;
   }
 
 span.senha {
@@ -89,7 +78,7 @@ span.senha {
     padding-top: 16px;
     position: absolute;
     top: 675px;
-    right: 322px;
+    right: 326px;
     z-index: 2;
     font-family: 'Merriweather Sans', sans-serif; 
   }
@@ -108,8 +97,8 @@ button {
 
   button[type=submit] {
     position: absolute;
-    top: 620px;
-    right: 280px;
+    top: 615px;
+    right: 286px;
     z-index: 2;
     font-family: solid 'Merriweather Sans', sans-serif;
     font-size: 20px; 
@@ -118,7 +107,7 @@ button {
   button:hover {
     opacity: 0.8;
   }
-  
+
   .imglogo-elevate {
     text-align: right;
     margin: 24px 0 12px 0;
@@ -126,8 +115,8 @@ button {
     width: 270px;
     height:71px;
     position: absolute;
-    top: 355px;
-    right: 225px;
+    top: 348px;
+    right: 235px;
     z-index: 2;
   }
 
