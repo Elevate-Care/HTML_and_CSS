@@ -6,8 +6,7 @@ body {
 }
 
 #container {
-    width: 99%;
-    height: 100%;
+    width: 98%;
     margin: 0 auto;
     border: 1px solid #000;
     background-color: #fff;
@@ -165,6 +164,10 @@ aside nav ul li:hover ul {
     color: #204057;
 }
 
+#conteudo {
+    padding-top: 15px;
+}
+
 main {
     width: 80%;
     height: 800px;
@@ -172,10 +175,6 @@ main {
     background-color: #FFF;
     margin-bottom: 5px;
     padding: 0 10px;
-}
-
-#conteudo {
-    padding-top: 15px;
 }
 
 hr {
@@ -187,38 +186,6 @@ hr {
 div h3 {
     margin-bottom: 0.5%;
     color: #204057;
-}
-
-.texto {
-    color: #204057;
-    font-weight: 700;
-    font-size: 19px;
-}
-
-#conteudo-primario {
-    padding-top: 10px;
-}
-
-#conteudo-secundario {
-    padding-top: 25px;
-}
-
-#data-inicial {
-    border-radius: 10px 10px 10px 10px;
-    size: 60px;
-    border: 2px solid #204057;
-    height: 30px;
-    width: 170px;
-    margin-right: 15px;
-}
-
-#data-final {
-    border-radius: 10px 10px 10px 10px;
-    size: 60px;
-    border: 2px solid #204057;
-    height: 30px;
-    width: 170px;
-    margin-bottom: 15px;
 }
 
 button[type=submit] {
@@ -237,7 +204,72 @@ button[type=submit]:hover {
     opacity: 0.8;
 }
 
+#conteudo img {
+    float: right;
+}
+
+#escolha-realizados {
+    border-radius: 10px 10px 10px 10px;
+    size: 60px;
+    border: 2px solid #204057;
+    height: 32px;
+    width: 173px;
+    margin-top: 20px;
+    background-color: #9CC5E2
+}
+
+#escolha-realizados:hover {
+    color: #fff;
+    background-color: #3681B8;
+    border: 2px solid #204057;
+}
+
+#escolha-cancelados {
+    border-radius: 10px 10px 10px 10px;
+    size: 60px;
+    border: 2px solid #204057;
+    height: 32px;
+    width: 174px;
+    margin-top: 20px; 
+    background-color: #9CC5E2
+}
+
+#escolha-cancelados:hover {
+    color: #fff;
+    background-color: #3681B8;
+    border: 2px solid #204057;
+}
+
+#checkbox1 {
+    width: 17px;
+    height: 17px;
+    margin-left: 13px;
+}
+
+#checkbox2 {
+    width: 17px;
+    height: 17px;
+    margin-left: 32px;
+}
+
+#data-inicial {
+    border-radius: 10px 10px 10px 10px;
+    size: 60px;
+    border: 2px solid #204057;
+    height: 30px;
+    width: 170px;
+    margin-right: 15px;
+}
+
+#data-final {
+    border-radius: 10px 10px 10px 10px;
+    size: 60px;
+    border: 2px solid #204057;
+    height: 30px;
+    width: 170px;
+}
+
 embed {
     width: 1500px;
-    height: 451px;
+    height: 470px;
 }

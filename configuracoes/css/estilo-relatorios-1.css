@@ -6,8 +6,7 @@ body {
 }
 
 #container {
-    width: 99%;
-    height: 100%;
+    width: 98%;
     margin: 0 auto;
     border: 1px solid #000;
     background-color: #fff;
@@ -165,6 +164,10 @@ aside nav ul li:hover ul {
     color: #204057;
 }
 
+#conteudo {
+    padding-top: 15px;
+}
+
 main {
     width: 80%;
     height: 800px;
@@ -172,10 +175,6 @@ main {
     background-color: #FFF;
     margin-bottom: 5px;
     padding: 0 10px;
-}
-
-#conteudo {
-    padding-top: 15px;
 }
 
 hr {
@@ -189,18 +188,43 @@ div h3 {
     color: #204057;
 }
 
-.texto {
-    color: #204057;
-    font-weight: 700;
-    font-size: 19px;
+#pesquisa-paciente {
+    border-radius: 10px 10px 10px 10px;
+    size: 60px;
+    border: 2px solid #204057;
+    height: 30px;
+    width: 500px;
 }
 
-#conteudo-primario {
-    padding-top: 10px;
+button[type=submit] {
+    background-color: #204057;
+    border-radius: 10px;
+    padding: 4px 8px 4px 8px;
+    color:#fff
 }
 
-#conteudo-secundario {
-    padding-top: 25px;
+button {
+    cursor: pointer;
+    height: 32px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#conteudo img {
+    float: right;
+}
+
+/* Vai manter o botão de imprimir? */
+button[type=print] {
+    background-color: #204057;
+    border-radius: 10px;
+    padding: 4px 8px 4px 8px;
+    color:#fff;
+    float: right;
+    margin-left: 5px;
+    margin-right: 40px;
 }
 
 #data-inicial {
@@ -218,26 +242,9 @@ div h3 {
     border: 2px solid #204057;
     height: 30px;
     width: 170px;
-    margin-bottom: 15px;
-}
-
-button[type=submit] {
-    background-color: #204057;
-    border-radius: 10px;
-    padding: 4px 8px 4px 8px;
-    color:#fff
-}
-
-button {
-    cursor: pointer;
-    height: 32px;
-}
-
-button[type=submit]:hover {
-    opacity: 0.8;
 }
 
 embed {
     width: 1500px;
-    height: 451px;
+    height: 490px;
 }
